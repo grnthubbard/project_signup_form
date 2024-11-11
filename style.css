@@ -3,7 +3,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 700px;
+    width: 600px;
     height: 1080px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
 
  .logo-bar {
     font-family: logo;
-    width: 720px;
+    width: 600px;
     height: 130px;
     display: flex;
     position: relative;
@@ -49,8 +49,8 @@ div .logo-bar h1 {
 .top-header {
     position: absolute;
     top: 0px;
-    left: 700px;
-    width: 1220px;
+    left: 600px;
+    width: 1000px;
     height: 400px;
     overflow: hidden;
     background-color: rgb(246, 239, 239);
@@ -61,13 +61,28 @@ div .logo-bar h1 {
     font-weight: bold;
     position: relative;
     top: 200px;
-    text-align: center;
+    padding: 30px;
+    width: 800px;
 }
 
 #form {
     position: relative;
     top: 400px;
-    box-shadow: 0px, 2px, 0px black;
+    left: 650px;
+    box-shadow: 0px 2px 0px black;
+    width: 800px;
+    height: 300px;
+}
+#form input {
+    width: 30%;
+}
+
+#form 
+
+#footer {
+    position: absolute;
+    top: 650px;
+    left: 600px;
 }
 
 .right {
